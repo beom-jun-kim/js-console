@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .container {
+        width: 500px;
+        border: 1px solid #000;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .dark-mode {
+        background: #111;
+        color: #999;
+        transition: 300ms;
+    }
+</style>
+</head>
+<body>
+    <button onclick="document.body.classList.toggle('dark-mode')">dark-mode</button>
+    <div class="container">
+        <h1>자바스크립트 다크 모드 미스트</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>
